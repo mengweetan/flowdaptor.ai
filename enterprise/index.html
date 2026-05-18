@@ -5,22 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Enterprise — FlowDaptor</title>
   <meta name="description" content="Enterprise-grade n8n deployments for regulated industries. Self-hosted, PDPA-compliant, with embedded delivery teams and 12-month operational SLAs." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400;1,9..40,500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../assets/site.css" />
 </head>
 <body>
 
   <nav class="fd-nav">
-    <a href="../index.html" class="fd-logo">Flow<span>Daptor</span></a>
+    <a href="../index.html" class="fd-logo"><img src="../assets/flowdaptor-logo-small.png" alt="FlowDaptor" /></a>
     <ul class="fd-nav-links">
+      <li><a href="../products/index.html">Products</a></li>
       <li><a href="../workflow/index.html">Workflows</a></li>
       <li><a href="../enterprise/index.html" class="active">Enterprise</a></li>
       <li><a href="../training/index.html">Training</a></li>
       <li><a href="../about/index.html">About</a></li>
       <li>
-        <a href="https://flowdaptor.com/" class="store-link" target="_blank" rel="noopener">
+        <a href="../store/index.html" class="store-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
           Store
         </a>
@@ -30,7 +28,7 @@
   </nav>
 
   <section class="fd-hero">
-    <div class="fd-hero-top single">
+    <div class="fd-hero-top">
       <div>
         <div class="fd-tag">Enterprise Engagements</div>
         <h1>Automation as<br><em>capital expenditure,</em><br>not subscription.</h1>
@@ -40,6 +38,7 @@
           <a class="fd-btn-secondary" href="#engagements">Engagement models</a>
         </div>
       </div>
+      <img src="../assets/enterprise.png" alt="OpenClaw brokerage team in session" style="width:100%;height:380px;object-fit:cover;border-radius:12px;" />
     </div>
   </section>
 
@@ -105,38 +104,55 @@
     <div class="fd-section-inner">
       <div class="fd-section-label">Engagement models</div>
       <h2 class="fd-section-heading">Choose the depth that matches your stage.</h2>
-      <div class="fd-tier-grid">
+      <div class="fd-tier-grid three">
         <div class="fd-tier">
           <div class="fd-tier-head">
-            <h3>Pilot</h3>
-            <div class="fd-tier-badge">3–6 weeks</div>
+            <h3>Basic</h3>
+            <div class="fd-tier-badge">Starter</div>
           </div>
-          <div class="fd-tier-price">SGD 18,000<span> · fixed scope</span></div>
-          <div class="fd-tier-desc">One high-value workflow, end to end. Designed for teams who want to prove out the model before broader rollout.</div>
+          <div class="fd-tier-price">SGD 2,000<span> / month</span></div>
+          <div class="fd-tier-annual">or SGD 24,000 / year</div>
           <ul>
-            <li>One agent or workflow, scoped together</li>
-            <li>Deployed to your infrastructure</li>
-            <li>30-day post-launch warranty</li>
-            <li>Runbook + handover session</li>
-            <li>Optional 3-month support add-on</li>
+            <li>1 production workflow maintained</li>
+            <li>Shared n8n environment, hosted by us</li>
+            <li>Standard integrations (Gmail, Sheets, CRM)</li>
+            <li>Ticketing support — 25 man-hours/month, 48-hour response</li>
+            <li>Setup fee: SGD 500</li>
           </ul>
-          <a class="fd-btn-secondary" href="../contact/index.html">Discuss a pilot</a>
+          <a class="fd-btn-secondary" href="../contact/index.html">Get started</a>
         </div>
         <div class="fd-tier featured">
           <div class="fd-tier-head">
-            <h3>Embedded</h3>
+            <h3>Professional</h3>
             <div class="fd-tier-badge">Most popular</div>
           </div>
-          <div class="fd-tier-price">From SGD 12,000<span> / month</span></div>
-          <div class="fd-tier-desc">A delivery team operating as an extension of yours. Continuous build, deploy, and refine across a roadmap of workflows.</div>
+          <div class="fd-tier-price">SGD 6,000<span> / month</span></div>
+          <div class="fd-tier-annual">or SGD 72,000 / year · setup fee waived (annual)</div>
           <ul>
-            <li>Dedicated lead engineer + supporting team</li>
-            <li>Quarterly roadmap, monthly deliverables</li>
-            <li>Production on-call within business hours</li>
-            <li>Training credits for your internal team</li>
-            <li>12-month minimum, then month-to-month</li>
+            <li>Up to 5 production workflows maintained</li>
+            <li>Dedicated n8n environment on your infrastructure</li>
+            <li>Custom integrations included</li>
+            <li>Ticketing + chat support — 75 man-hours/month, 24-hour response</li>
+            <li>Setup fee waived with annual commitment</li>
           </ul>
-          <a class="fd-btn-primary" href="../contact/index.html">Talk to us about embedded</a>
+          <a class="fd-btn-primary" href="../contact/index.html">Talk to us</a>
+        </div>
+        <div class="fd-tier">
+          <div class="fd-tier-head">
+            <h3>Enterprise</h3>
+            <div class="fd-tier-badge">SLA</div>
+          </div>
+          <div class="fd-tier-price">SGD 16,000<span> / month</span></div>
+          <div class="fd-tier-annual">or SGD 192,000 / year · setup fee waived (annual)</div>
+          <ul>
+            <li>Unlimited production workflows maintained</li>
+            <li>Dedicated environment with operational SLA</li>
+            <li>Custom feature development at agreed rate</li>
+            <li>Dedicated support rep — 200 man-hours/month, 4-hour response</li>
+            <li>Quarterly roadmap with named lead engineer</li>
+            <li>Setup fee waived with annual commitment</li>
+          </ul>
+          <a class="fd-btn-secondary" href="../contact/index.html">Book a call</a>
         </div>
       </div>
     </div>
@@ -144,39 +160,12 @@
 
   <section class="fd-section">
     <div class="fd-section-inner">
-      <div class="fd-section-label">Sectors we serve</div>
-      <h2 class="fd-section-heading">Where regulated meets repetitive.</h2>
-      <div class="fd-usecases">
-        <div class="fd-usecase">
-          <div class="fd-usecase-tag">Financial Services</div>
-          <h3>Banks &amp; fund managers</h3>
-          <p>KYC pipelines, trade reconciliation, regulatory reporting, and investor comms — all behind your firewall.</p>
-        </div>
-        <div class="fd-usecase">
-          <div class="fd-usecase-tag">Healthcare</div>
-          <h3>Clinics &amp; medtech</h3>
-          <p>Patient intake, claims processing, and clinical doc summarisation. PHI never touches a third party.</p>
-        </div>
-        <div class="fd-usecase">
-          <div class="fd-usecase-tag">Legal &amp; Prof. Services</div>
-          <h3>Firms &amp; advisors</h3>
-          <p>Document triage, contract review, and engagement-letter workflows tuned to your house style.</p>
-        </div>
-        <div class="fd-usecase">
-          <div class="fd-usecase-tag">Logistics</div>
-          <h3>Freight &amp; supply chain</h3>
-          <p>Doc parsing, exception handling, and partner integrations that scale without per-event SaaS fees.</p>
-        </div>
-        <div class="fd-usecase">
-          <div class="fd-usecase-tag">Public Sector</div>
-          <h3>Statutory boards</h3>
-          <p>Citizen request routing, form processing, and internal ops — deployed on government-approved infrastructure.</p>
-        </div>
-        <div class="fd-usecase">
-          <div class="fd-usecase-tag">Manufacturing</div>
-          <h3>Industrial operators</h3>
-          <p>Supplier comms, quality-event triage, and shop-floor reporting workflows tied to your ERP.</p>
-        </div>
+      <div class="fd-section-label">Productised solutions</div>
+      <h2 class="fd-section-heading">Beyond bespoke — a growing catalogue of products.</h2>
+      <p class="fd-section-lead">FlowDaptor 1.0 is our flagship AI e-commerce engine for Singapore SMEs. OpenClaw is our multi-tenant brokerage platform. Plus a suite of agentic teams across sales, finance, comms, research, and marketing.</p>
+      <div class="fd-hero-btns">
+        <a class="fd-btn-primary" href="../products/index.html">See all products →</a>
+        <a class="fd-btn-secondary" href="../contact/index.html">Discuss a custom build</a>
       </div>
     </div>
   </section>
@@ -219,13 +208,14 @@
   </section>
 
   <footer class="fd-footer">
-    <div class="fd-footer-logo">Flow<span>Daptor</span></div>
+    <div class="fd-footer-logo"><img src="../assets/flowdaptor-logo-small.png" alt="FlowDaptor" /></div>
     <div class="fd-footer-links">
+      <a href="../products/index.html">Products</a>
       <a href="../workflow/index.html">Workflows</a>
       <a href="../enterprise/index.html">Enterprise</a>
       <a href="../training/index.html">Training</a>
       <a href="../about/index.html">About</a>
-      <a href="https://flowdaptor.com/" target="_blank" rel="noopener">Store</a>
+      <a href="../store/index.html">Store</a>
       <a href="../contact/index.html">Contact</a>
     </div>
     <div class="fd-footer-copy">FlowDaptor Pte. Ltd. © 2026 — All rights reserved.</div>

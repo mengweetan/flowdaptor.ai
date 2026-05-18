@@ -818,6 +818,15 @@ a { text-decoration: none; color: inherit; }
   width: 100%;
 }
 
+/* ── FOUNDERS STORY GRID ── */
+.fd-story-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
 /* ── FLAGSHIP PRODUCT BLOCK ── */
 .fd-flagship {
   background: var(--surface);
@@ -1149,6 +1158,7 @@ a { text-decoration: none; color: inherit; }
   .fd-products { grid-template-columns: 1fr; }
   .fd-deploy { grid-template-columns: 1fr; }
   .fd-agents-grid { grid-template-columns: 1fr 1fr; }
+  .fd-story-grid { grid-template-columns: 1fr; gap: 1.5rem; }
   .fd-flagship { padding: 1.5rem; }
   .fd-flagship h3 { font-size: 22px; }
   .fd-contact-grid { grid-template-columns: 1fr; gap: 2rem; }

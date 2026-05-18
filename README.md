@@ -25,4 +25,8 @@ Static HTML, no build step, no JS framework. Shared design system in `assets/sit
 - Add product detail pages under `/products/[slug]/`
 - Performance pass: image optimisation, lazy-load below-fold sections
 
+## Authorship
+
+v1 authored by **TAN MENG WEE**.
+
 © 2026 FlowDaptor Pte. Ltd.

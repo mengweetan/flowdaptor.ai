@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -14,6 +15,52 @@
   --text-muted: rgba(240,240,240,0.28);
   --text-dim: rgba(240,240,240,0.3);
   --font: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+=======
+/* ─────────────────────────────────────────────────────────────
+   FLOWDAPTOR — full site stylesheet
+   Brand: cyan #2BCFFF → green #00E957, rounded sans
+   ───────────────────────────────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* Brand gradient stops */
+  --brand-blue: #2BCFFF;
+  --brand-green: #00E957;
+  --brand-mid: #1ad6c2;
+  --brand-grad: linear-gradient(90deg, #2BCFFF 0%, #1ad6c2 50%, #00E957 100%);
+  --brand-grad-soft: linear-gradient(135deg, rgba(43,207,255,0.18), rgba(0,233,87,0.18));
+  --brand-grad-vert: linear-gradient(180deg, #2BCFFF 0%, #00E957 100%);
+
+  /* Accent (cyan, used as a single tone where gradient is too busy) */
+  --acc: #2BCFFF;
+  --acc-2: #00E957;
+  --acc-dim: rgba(43,207,255,0.10);
+  --acc-border: rgba(43,207,255,0.32);
+  --acc-text: #051210;
+
+  /* Surfaces — cool-tinted dark */
+  --bg: #06090b;
+  --bg-2: #0a0f12;
+  --surface: #0f1418;
+  --surface-2: #131a1f;
+  --surface-3: #182025;
+  --border: rgba(255,255,255,0.07);
+  --border-strong: rgba(255,255,255,0.14);
+  --border-nav: rgba(255,255,255,0.08);
+
+  /* Text */
+  --text-primary: #ecf3f5;
+  --text-secondary: rgba(236,243,245,0.62);
+  --text-muted: rgba(236,243,245,0.34);
+  --text-dim: rgba(236,243,245,0.22);
+
+  --font-head: 'Quicksand', 'Arial Rounded MT Bold', 'Nunito', system-ui, sans-serif;
+  --font: 'Quicksand', 'Arial Rounded MT Bold', 'Nunito', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+>>>>>>> 48cc3c4 (v1.8)
 }
 
 html { scroll-behavior: smooth; }
@@ -21,15 +68,22 @@ html { scroll-behavior: smooth; }
 body {
   font-family: var(--font);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   font-weight: 500;
 >>>>>>> f2e9849 (verion 1.1)
+=======
+  font-weight: 500;
+>>>>>>> 48cc3c4 (v1.8)
   background: var(--bg);
   color: var(--text-primary);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: -0.005em;
   background-image:
@@ -37,14 +91,20 @@ body {
     radial-gradient(900px 500px at 100% 5%, rgba(0,233,87,0.08), transparent 55%),
     linear-gradient(180deg, #06090b 0%, #06090b 100%);
   background-attachment: fixed;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 }
 
 a { text-decoration: none; color: inherit; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* ── NAV ── */
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
 ::selection { background: rgba(43,207,255,0.25); color: #fff; }
 
 /* ── Utility ── */
@@ -61,21 +121,30 @@ code { font-family: var(--font-mono); }
 /* ─────────────────────────────────────────────────────────────
    NAV
    ───────────────────────────────────────────────────────────── */
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
 <<<<<<< HEAD
   padding: 1.25rem 3rem;
 =======
   gap: 1.5rem;
   padding: 1.1rem 2.5rem;
 >>>>>>> f2e9849 (verion 1.1)
+=======
+  gap: 1.5rem;
+  padding: 1.1rem 2.5rem;
+>>>>>>> 48cc3c4 (v1.8)
   border-bottom: 0.5px solid var(--border-nav);
   position: sticky;
   top: 0;
   z-index: 100;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background: rgba(10,10,10,0.95);
   backdrop-filter: blur(12px);
@@ -99,6 +168,8 @@ code { font-family: var(--font-mono); }
   display: flex;
   gap: 2rem;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   background: rgba(6,9,11,0.78);
   backdrop-filter: blur(18px) saturate(140%);
   -webkit-backdrop-filter: blur(18px) saturate(140%);
@@ -113,11 +184,15 @@ code { font-family: var(--font-mono); }
 .fd-nav-links {
   display: flex;
   gap: 1.8rem;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   list-style: none;
   align-items: center;
 }
 .fd-nav-links a {
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: rgba(240,240,240,0.55);
   font-size: 14px;
@@ -126,11 +201,17 @@ code { font-family: var(--font-mono); }
   font-size: 14px;
   font-weight: 500;
 >>>>>>> f2e9849 (verion 1.1)
+=======
+  color: rgba(236,243,245,0.62);
+  font-size: 14px;
+  font-weight: 500;
+>>>>>>> 48cc3c4 (v1.8)
   transition: color 0.2s;
 }
 .fd-nav-links a:hover,
 .fd-nav-links a.active { color: var(--text-primary); }
 .fd-nav-links .store-link {
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: var(--acc);
   border: 0.5px solid var(--acc-border);
@@ -188,6 +269,8 @@ code { font-family: var(--font-mono); }
   line-height: 1.1;
   letter-spacing: -2px;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   color: var(--brand-blue);
   border: 1px solid var(--acc-border);
   padding: 6px 13px;
@@ -277,11 +360,15 @@ code { font-family: var(--font-mono); }
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.035em;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   color: var(--text-primary);
   margin-bottom: 1.5rem;
 }
 .fd-hero h1 em {
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-style: italic;
   color: var(--acc);
@@ -293,6 +380,8 @@ code { font-family: var(--font-mono); }
   margin-bottom: 2.5rem;
 }
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-style: normal;
   background: var(--brand-grad);
   -webkit-background-clip: text;
@@ -309,13 +398,17 @@ code { font-family: var(--font-mono); }
   max-width: 620px;
 }
 .fd-hero p em { color: var(--brand-blue); font-style: italic; }
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-hero-btns {
   display: flex;
   gap: 1rem;
   align-items: center;
   flex-wrap: wrap;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .fd-btn-primary {
   background: var(--acc);
@@ -329,6 +422,8 @@ code { font-family: var(--font-mono); }
 }
 .fd-btn-primary:hover { opacity: 0.88; }
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
 
 /* ── Buttons ── */
 .fd-btn-primary {
@@ -351,11 +446,15 @@ code { font-family: var(--font-mono); }
 }
 .fd-btn-primary:hover { filter: brightness(1.05); transform: translateY(-1px); }
 
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-btn-secondary {
   background: transparent;
   color: var(--text-primary);
   font-size: 14px;
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-weight: 500;
   padding: 11px 22px;
@@ -431,6 +530,8 @@ code { font-family: var(--font-mono); }
 .fd-section {
   padding: 5rem 3rem;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-weight: 600;
   padding: 12px 22px;
   border-radius: 999px;
@@ -507,11 +608,15 @@ code { font-family: var(--font-mono); }
    ───────────────────────────────────────────────────────────── */
 .fd-section {
   padding: 6rem 2.5rem;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   border-bottom: 0.5px solid var(--border);
 }
 .fd-section.no-border { border-bottom: none; }
 .fd-section-inner {
+<<<<<<< HEAD
 <<<<<<< HEAD
   max-width: 900px;
   margin: 0 auto;
@@ -581,6 +686,8 @@ code { font-family: var(--font-mono); }
   border: 0.5px solid var(--border);
   border-radius: 12px;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -695,7 +802,10 @@ code { font-family: var(--font-mono); }
   background: var(--border);
   border: 1px solid var(--border);
   border-radius: 18px;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   overflow: hidden;
   margin-top: 2.5rem;
 }
@@ -703,16 +813,23 @@ code { font-family: var(--font-mono); }
   background: var(--surface);
   padding: 2rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
   transition: background 0.2s;
 }
 .fd-platform-cell:hover { background: var(--surface-2); }
 >>>>>>> f2e9849 (verion 1.1)
+=======
+  transition: background 0.2s;
+}
+.fd-platform-cell:hover { background: var(--surface-2); }
+>>>>>>> 48cc3c4 (v1.8)
 .fd-platform-cell.wide {
   grid-column: 1 / -1;
   padding: 0;
   overflow: hidden;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 .fd-platform-cell.wide .fd-img-placeholder {
@@ -750,6 +867,8 @@ code { font-family: var(--font-mono); }
 
 /* ── USE CASES ── */
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   background: var(--surface);
 }
 .fd-platform-cell.wide img {
@@ -788,12 +907,16 @@ code { font-family: var(--font-mono); }
 /* ─────────────────────────────────────────────────────────────
    USE CASES
    ───────────────────────────────────────────────────────────── */
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-usecases {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   background: var(--border);
+<<<<<<< HEAD
 <<<<<<< HEAD
   border: 0.5px solid var(--border);
   border-radius: 12px;
@@ -849,6 +972,8 @@ code { font-family: var(--font-mono); }
 
 /* ── WORKFLOW CATALOG ── */
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   border: 1px solid var(--border);
   border-radius: 18px;
   overflow: hidden;
@@ -961,7 +1086,10 @@ code { font-family: var(--font-mono); }
 /* ─────────────────────────────────────────────────────────────
    CATALOG (workflow library cards)
    ───────────────────────────────────────────────────────────── */
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-catalog {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -971,6 +1099,7 @@ code { font-family: var(--font-mono); }
 .fd-catalog-card {
   background: var(--surface);
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.5px solid var(--border);
   border-radius: 12px;
   padding: 1.75rem;
@@ -978,6 +1107,8 @@ code { font-family: var(--font-mono); }
 }
 .fd-catalog-card:hover { border-color: rgba(212,245,60,0.25); background: #141414; }
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   border: 1px solid var(--border);
   border-radius: 18px;
   padding: 2rem;
@@ -996,7 +1127,10 @@ code { font-family: var(--font-mono); }
   transition: opacity 0.3s;
 }
 .fd-catalog-card:hover { border-color: var(--acc-border); transform: translateY(-3px); }
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-catalog-card-top {
   display: flex;
   justify-content: space-between;
@@ -1004,6 +1138,7 @@ code { font-family: var(--font-mono); }
   margin-bottom: 1.25rem;
 }
 .fd-catalog-tag {
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-size: 10px;
   text-transform: uppercase;
@@ -1016,6 +1151,8 @@ code { font-family: var(--font-mono); }
 }
 .fd-catalog-price {
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-family: var(--font-mono);
   font-size: 10.5px;
   text-transform: uppercase;
@@ -1029,12 +1166,16 @@ code { font-family: var(--font-mono); }
 }
 .fd-catalog-price {
   font-family: var(--font-mono);
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-size: 12px;
   color: var(--text-muted);
   letter-spacing: 0.04em;
 }
 .fd-catalog-card h3 {
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-size: 18px;
   font-weight: 500;
@@ -1052,6 +1193,8 @@ code { font-family: var(--font-mono); }
   display: flex;
   gap: 1.25rem;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-family: var(--font-head);
   font-size: 21px;
   font-weight: 700;
@@ -1070,12 +1213,16 @@ code { font-family: var(--font-mono); }
   gap: 1rem;
   flex-wrap: wrap;
   font-family: var(--font-mono);
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-size: 11px;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .fd-catalog-meta span::before { content: '— '; }
 
@@ -1107,6 +1254,8 @@ code { font-family: var(--font-mono); }
 
 /* ── PRICING / TRAINING CARDS ── */
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-catalog-meta span {
   display: inline-flex;
   align-items: center;
@@ -1123,7 +1272,10 @@ code { font-family: var(--font-mono); }
 /* ─────────────────────────────────────────────────────────────
    TIERS (pricing)
    ───────────────────────────────────────────────────────────── */
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-tier-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1135,6 +1287,7 @@ code { font-family: var(--font-mono); }
   display: inline-block;
   font-size: 11px;
   text-transform: uppercase;
+<<<<<<< HEAD
 <<<<<<< HEAD
   letter-spacing: 0.1em;
   color: var(--acc);
@@ -1160,6 +1313,8 @@ code { font-family: var(--font-mono); }
 }
 .fd-tier.featured { border-color: var(--acc-border); background: linear-gradient(180deg, rgba(212,245,60,0.04), #111111 40%); }
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   letter-spacing: 0.12em;
   color: var(--brand-blue);
   background: var(--acc-dim);
@@ -1203,7 +1358,10 @@ code { font-family: var(--font-mono); }
   z-index: 0;
 }
 .fd-tier > * { position: relative; z-index: 1; }
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-tier-head {
   display: flex;
   justify-content: space-between;
@@ -1211,6 +1369,7 @@ code { font-family: var(--font-mono); }
   margin-bottom: 1rem;
 }
 .fd-tier-head h3 {
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-size: 18px;
   font-weight: 500;
@@ -1243,6 +1402,8 @@ code { font-family: var(--font-mono); }
   font-size: 13px;
   color: rgba(240,240,240,0.5);
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-family: var(--font-head);
   font-size: 20px;
   font-weight: 700;
@@ -1284,7 +1445,10 @@ code { font-family: var(--font-mono); }
 .fd-tier-desc {
   font-size: 14px;
   color: var(--text-secondary);
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   line-height: 1.65;
   margin-bottom: 1.5rem;
 }
@@ -1294,6 +1458,7 @@ code { font-family: var(--font-mono); }
   flex: 1;
 }
 .fd-tier li {
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-size: 13px;
   color: rgba(240,240,240,0.65);
@@ -1311,6 +1476,8 @@ code { font-family: var(--font-mono); }
   border-left: 1.5px solid var(--acc);
   border-bottom: 1.5px solid var(--acc);
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-size: 14px;
   color: var(--text-primary);
   line-height: 1.6;
@@ -1337,31 +1504,41 @@ code { font-family: var(--font-mono); }
   height: 3px;
   border-left: 1.5px solid var(--brand-blue);
   border-bottom: 1.5px solid var(--brand-green);
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   transform: rotate(-45deg);
 }
 .fd-tier .fd-btn-primary,
 .fd-tier .fd-btn-secondary { text-align: center; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* ── CONTACT FORM ── */
 .fd-contact-grid {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
 /* ─────────────────────────────────────────────────────────────
    CONTACT FORM
    ───────────────────────────────────────────────────────────── */
 .fd-contact-grid {
   display: grid;
   grid-template-columns: 1.3fr 1fr;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   gap: 3rem;
   margin-top: 2.5rem;
   align-items: start;
 }
 .fd-form {
   background: var(--surface);
+<<<<<<< HEAD
 <<<<<<< HEAD
   border: 0.5px solid var(--border);
   border-radius: 12px;
@@ -1371,6 +1548,11 @@ code { font-family: var(--font-mono); }
   border-radius: 20px;
   padding: 2.25rem;
 >>>>>>> f2e9849 (verion 1.1)
+=======
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2.25rem;
+>>>>>>> 48cc3c4 (v1.8)
 }
 .fd-field { margin-bottom: 1.25rem; }
 .fd-field label {
@@ -1378,20 +1560,27 @@ code { font-family: var(--font-mono); }
   font-size: 11px;
   text-transform: uppercase;
 <<<<<<< HEAD
+<<<<<<< HEAD
   letter-spacing: 0.1em;
   color: var(--text-muted);
   margin-bottom: 0.5rem;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   letter-spacing: 0.14em;
   color: var(--text-muted);
   margin-bottom: 0.5rem;
   font-weight: 700;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 }
 .fd-field input,
 .fd-field select,
 .fd-field textarea {
   width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background: #0a0a0a;
   border: 0.5px solid rgba(255,255,255,0.1);
@@ -1403,6 +1592,8 @@ code { font-family: var(--font-mono); }
   transition: border-color 0.2s;
 }
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   background: var(--bg);
   border: 1px solid var(--border-strong);
   border-radius: 10px;
@@ -1415,11 +1606,15 @@ code { font-family: var(--font-mono); }
 }
 .fd-field input::placeholder,
 .fd-field textarea::placeholder { color: var(--text-dim); }
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-field input:focus,
 .fd-field select:focus,
 .fd-field textarea:focus {
   outline: none;
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-color: var(--acc-border);
 }
@@ -1494,6 +1689,8 @@ code { font-family: var(--font-mono); }
   font-size: 16px;
   font-weight: 500;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   border-color: var(--brand-blue);
   background: var(--surface-2);
 }
@@ -1635,7 +1832,10 @@ code { font-family: var(--font-mono); }
   font-family: var(--font-head);
   font-size: 16.5px;
   font-weight: 700;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   color: var(--text-primary);
   cursor: pointer;
   list-style: none;
@@ -1644,14 +1844,19 @@ code { font-family: var(--font-mono); }
   align-items: center;
   gap: 1rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   letter-spacing: -0.01em;
 >>>>>>> f2e9849 (verion 1.1)
+=======
+  letter-spacing: -0.01em;
+>>>>>>> 48cc3c4 (v1.8)
 }
 .fd-faq summary::-webkit-details-marker { display: none; }
 .fd-faq summary::after {
   content: '+';
   font-size: 22px;
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: var(--acc);
   font-weight: 400;
@@ -1668,6 +1873,8 @@ code { font-family: var(--font-mono); }
 
 /* ── TEAM ── */
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-weight: 700;
   background: var(--brand-grad);
   -webkit-background-clip: text;
@@ -1690,7 +1897,10 @@ code { font-family: var(--font-mono); }
 /* ─────────────────────────────────────────────────────────────
    TEAM (about page)
    ───────────────────────────────────────────────────────────── */
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-team {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1699,6 +1909,7 @@ code { font-family: var(--font-mono); }
 }
 .fd-team-card {
   background: var(--surface);
+<<<<<<< HEAD
 <<<<<<< HEAD
   border: 0.5px solid var(--border);
   border-radius: 12px;
@@ -1719,6 +1930,8 @@ code { font-family: var(--font-mono); }
   margin-bottom: 1rem;
   letter-spacing: -0.5px;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   border: 1px solid var(--border);
   border-radius: 18px;
   padding: 2rem;
@@ -1732,13 +1945,17 @@ code { font-family: var(--font-mono); }
   background: var(--brand-grad);
   padding: 2px;
   margin-bottom: 1.1rem;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   overflow: hidden;
 }
 .fd-team-avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+<<<<<<< HEAD
 <<<<<<< HEAD
   display: block;
 }
@@ -1936,6 +2153,8 @@ code { font-family: var(--font-mono); }
 
 /* ── FOUNDERS STORY GRID ── */
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   border-radius: 50%;
   display: block;
 }
@@ -1962,7 +2181,10 @@ code { font-family: var(--font-mono); }
 }
 
 /* Story (about) */
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-story-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -1970,6 +2192,7 @@ code { font-family: var(--font-mono); }
   align-items: start;
   margin-top: 1rem;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 /* ── FLAGSHIP PRODUCT BLOCK ── */
@@ -1997,6 +2220,8 @@ code { font-family: var(--font-mono); }
 .fd-flagship-lead {
   font-size: 15px;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-story-grid .fd-section-lead { margin-bottom: 1.25rem; max-width: none; }
 .fd-story-grid img {
   border-radius: 18px !important;
@@ -2204,11 +2429,15 @@ code { font-family: var(--font-mono); }
 }
 .fd-flagship-lead {
   font-size: 16.5px;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 2rem;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .fd-flagship-lead em {
   color: var(--acc);
@@ -2259,6 +2488,8 @@ code { font-family: var(--font-mono); }
   color: var(--acc);
   font-weight: 500;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-flagship-lead em { color: var(--brand-blue); font-style: italic; }
 .fd-flagship h4 {
   font-family: var(--font-mono);
@@ -2304,7 +2535,10 @@ code { font-family: var(--font-mono); }
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 }
 .fd-agents-grid {
   display: grid;
@@ -2312,16 +2546,22 @@ code { font-family: var(--font-mono); }
   gap: 1px;
   background: var(--border);
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.5px solid var(--border);
   border-radius: 8px;
 =======
   border: 1px solid var(--border);
   border-radius: 14px;
 >>>>>>> f2e9849 (verion 1.1)
+=======
+  border: 1px solid var(--border);
+  border-radius: 14px;
+>>>>>>> 48cc3c4 (v1.8)
   overflow: hidden;
   margin-top: 0.5rem;
 }
 .fd-agent {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background: #0f0f0f;
   padding: 1.1rem 1.25rem;
@@ -2349,6 +2589,8 @@ code { font-family: var(--font-mono); }
 
 /* ── STORE: PRODUCTS ── */
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   background: var(--bg-2);
   padding: 1.25rem 1.4rem;
   position: relative;
@@ -2381,7 +2623,10 @@ code { font-family: var(--font-mono); }
 /* ─────────────────────────────────────────────────────────────
    STORE — products grid
    ───────────────────────────────────────────────────────────── */
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2390,6 +2635,7 @@ code { font-family: var(--font-mono); }
 }
 .fd-product {
   background: var(--surface);
+<<<<<<< HEAD
 <<<<<<< HEAD
   border: 0.5px solid var(--border);
   border-radius: 12px;
@@ -2407,6 +2653,8 @@ code { font-family: var(--font-mono); }
   font-size: 24px;
   color: var(--acc);
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   border: 1px solid var(--border);
   border-radius: 18px;
   padding: 1.9rem;
@@ -2425,11 +2673,15 @@ code { font-family: var(--font-mono); }
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   margin-bottom: 1rem;
   line-height: 1;
 }
 .fd-product h3 {
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-size: 17px;
   font-weight: 500;
@@ -2441,6 +2693,8 @@ code { font-family: var(--font-mono); }
   font-size: 13px;
   color: rgba(240,240,240,0.5);
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   font-family: var(--font-head);
   font-size: 19px;
   font-weight: 700;
@@ -2451,7 +2705,10 @@ code { font-family: var(--font-mono); }
 .fd-product-desc {
   font-size: 14px;
   color: var(--text-secondary);
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   line-height: 1.65;
   margin-bottom: 1.25rem;
   min-height: 60px;
@@ -2460,6 +2717,7 @@ code { font-family: var(--font-mono); }
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+<<<<<<< HEAD
 <<<<<<< HEAD
   margin-bottom: 1.25rem;
 }
@@ -2472,6 +2730,8 @@ code { font-family: var(--font-mono); }
   padding: 3px 8px;
   border-radius: 100px;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   margin-bottom: 1.5rem;
 }
 .fd-product-platforms span {
@@ -2484,13 +2744,17 @@ code { font-family: var(--font-mono); }
   padding: 4px 9px;
   border-radius: 999px;
   background: var(--bg-2);
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 }
 .fd-product-foot {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
+<<<<<<< HEAD
 <<<<<<< HEAD
   padding-top: 1rem;
   border-top: 0.5px solid var(--border);
@@ -2529,6 +2793,8 @@ code { font-family: var(--font-mono); }
   border-radius: 12px;
   padding: 0;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   padding-top: 1.1rem;
   border-top: 1px solid var(--border);
 }
@@ -2571,7 +2837,10 @@ code { font-family: var(--font-mono); }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 18px;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   margin-top: 2.5rem;
   overflow: hidden;
 }
@@ -2579,6 +2848,7 @@ code { font-family: var(--font-mono); }
   display: flex;
   align-items: center;
   gap: 8px;
+<<<<<<< HEAD
 <<<<<<< HEAD
   padding: 12px 16px;
   border-bottom: 0.5px solid var(--border);
@@ -2593,6 +2863,8 @@ code { font-family: var(--font-mono); }
 .fd-code-name {
   font-size: 11px;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   padding: 13px 18px;
   border-bottom: 1px solid var(--border);
   background: var(--bg-2);
@@ -2609,13 +2881,17 @@ code { font-family: var(--font-mono); }
 .fd-code-name {
   font-family: var(--font-mono);
   font-size: 11.5px;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   color: var(--text-muted);
   margin-left: 8px;
   letter-spacing: 0.04em;
 }
 .fd-code pre {
   margin: 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
   padding: 1.5rem;
   font-size: 13px;
@@ -2631,6 +2907,8 @@ code { font-family: var(--font-mono); }
 
 /* ── STORE: COMPLIANCE BADGES ── */
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   padding: 1.75rem;
   font-family: var(--font-mono);
   font-size: 13px;
@@ -2645,21 +2923,29 @@ code { font-family: var(--font-mono); }
 .fd-code .c { color: var(--text-muted); font-style: italic; }
 
 /* Compliance badges */
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 .fd-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-top: 2.5rem;
 =======
   margin-top: 0.5rem;
 >>>>>>> f2e9849 (verion 1.1)
+=======
+  margin-top: 0.5rem;
+>>>>>>> 48cc3c4 (v1.8)
 }
 .fd-badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+<<<<<<< HEAD
 <<<<<<< HEAD
   padding: 10px 16px;
   border: 0.5px solid var(--border);
@@ -2675,6 +2961,8 @@ code { font-family: var(--font-mono); }
   height: 7px;
   background: var(--acc);
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   padding: 10px 18px;
   border: 1px solid var(--border-strong);
   border-radius: 999px;
@@ -2689,11 +2977,15 @@ code { font-family: var(--font-mono); }
   width: 8px;
   height: 8px;
   background: var(--brand-grad);
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   border-radius: 50%;
   display: inline-block;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* ── STORE: DEPLOY STEPS ── */
 .fd-deploy {
@@ -2705,16 +2997,22 @@ code { font-family: var(--font-mono); }
   border-radius: 12px;
   overflow: hidden;
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
 /* Deploy steps */
 .fd-deploy {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
   margin-top: 2.5rem;
 }
 .fd-deploy-cell {
   background: var(--surface);
+<<<<<<< HEAD
 <<<<<<< HEAD
   padding: 2rem;
   position: relative;
@@ -2774,6 +3072,8 @@ code { font-family: var(--font-mono); }
   .fd-usecases { grid-template-columns: 1fr; }
   .fd-team { grid-template-columns: 1fr; }
 =======
+=======
+>>>>>>> 48cc3c4 (v1.8)
   border: 1px solid var(--border);
   border-radius: 18px;
   padding: 2rem;
@@ -2838,5 +3138,8 @@ code { font-family: var(--font-mono); }
   .fd-footer { grid-template-columns: 1fr; text-align: center; gap: 1.25rem; padding: 2rem 1.25rem; }
   .fd-footer-copy { text-align: center; }
   .fd-footer-links { justify-content: center; }
+<<<<<<< HEAD
 >>>>>>> f2e9849 (verion 1.1)
+=======
+>>>>>>> 48cc3c4 (v1.8)
 }
